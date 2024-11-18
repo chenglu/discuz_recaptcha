@@ -1,6 +1,6 @@
 <?php
 /**
- *	[reCAPTCHA(cdc_recaptcha)] (C)2019-2099 Powered by popcorner.
+ *	[reCAPTCHAx(cdc_recaptcha)] (C)2019-2099 Powered by popcorner.
  *  Licensed under the Apache License, Version 2.0
  */
 

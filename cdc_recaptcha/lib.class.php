@@ -1,6 +1,6 @@
 <?php
 /**
- *	[reCAPTCHA(cdc_recaptcha)] (C)2019-2099 Powered by popcorner.
+ *	[reCAPTCHAx(cdc_recaptchax)] (C)2019-2099 Powered by popcorner.
  *  Licensed under the Apache License, Version 2.0
  */
 
@@ -14,9 +14,9 @@ function recaptchajsparams($mobile = 0) {
 	if(!isset($_G['cache']['plugin'])) {
 		loadcache('plugin');
 	}
-	$var = $_G['cache']['plugin']['cdc_recaptcha'];
-	$return['lang'] = $var['cname']?dhtmlspecialchars($var['cname']):lang('plugin/cdc_recaptcha','captcha');
-	$return['noie'] = lang('plugin/cdc_recaptcha','noie');
+	$var = $_G['cache']['plugin']['cdc_recaptchax'];
+	$return['lang'] = $var['cname']?dhtmlspecialchars($var['cname']):lang('plugin/cdc_recaptchax','captcha');
+	$return['noie'] = lang('plugin/cdc_recaptchax','noie');
 
 	if($var['hlang']) {
 		$qrr['hl'] = $var['hlang'];
@@ -40,7 +40,13 @@ function recaptchajsparams($mobile = 0) {
 		}
 		$helpicon = '<a class="xi2" style="margin-left:6px"'.$helpicona[0].'><img src="'.$_G['style']['imgdir'].'/info_small.gif" class="vm"'.$helpicona[1].'></a>';
 	}
-	$return['grecaptcha'] = '<input name="seccodehash" type="hidden" value="\' + idhash + \'" /><span id="checkseccodeverify_\' + idhash + \'" style="display:none"><img src="'.$_G['style']['imgdir'].'/check_right.gif" width="16" height="16" class="vm"></span><input name="seccodeverify" id="seccodeverify_\' + idhash + \'" type="hidden" value="\' + idhash + \'" /><div class="g-recaptcha" data-sitekey="'.$var['pubkey'].'"'.$addi.'></div>';
+
+	if ($var['recaptcha_version'] == 3) {
+		$return['grecaptcha'] = '<input name="seccodehash" type="hidden" value="\' + idhash + \'" /><span id="checkseccodeverify_\' + idhash + \'" style="display:none"><img src="'.$_G['style']['imgdir'].'/check_right.gif" width="16" height="16" class="vm"></span><input name="seccodeverify" id="seccodeverify_\' + idhash + \'" type="hidden" value="\' + idhash + \'" /><div class="g-recaptcha" data-sitekey="'.$var['pubkey'].'" data-callback="onRecaptchaSuccess" data-action="homepage"'.$addi.'></div>';
+	} else {
+		$return['grecaptcha'] = '<input name="seccodehash" type="hidden" value="\' + idhash + \'" /><span id="checkseccodeverify_\' + idhash + \'" style="display:none"><img src="'.$_G['style']['imgdir'].'/check_right.gif" width="16" height="16" class="vm"></span><input name="seccodeverify" id="seccodeverify_\' + idhash + \'" type="hidden" value="\' + idhash + \'" /><div class="g-recaptcha" data-sitekey="'.$var['pubkey'].'"'.$addi.'></div>';
+	}
+
 	$return['grecaptcha'] .= '<span id="\' + onloadid + \'">';
 	$return['grecaptcha'] .= intval($var['loadicon'])?'<img src="'.$_G['style']['imgdir'].'/loading.gif" class="vm">':'';
 	$return['grecaptcha'] .= '</span>';
@@ -63,7 +69,7 @@ function recaptchaphpparams() {
 	if(!isset($_G['cache']['plugin'])) {
 		loadcache('plugin');
 	}
-	$var = $_G['cache']['plugin']['cdc_recaptcha'];
+	$var = $_G['cache']['plugin']['cdc_recaptchax'];
 	if(!$var['pubkey'] || !$var['privkey']) {
 		return array('','','');
 	} else {
@@ -75,6 +81,10 @@ function recaptchaphpparams() {
 		$return =  array('<script src="'.$jspath.'recaptcha.js?'.$_G['style']['verhash'].'" reload="1"></script><div id="recptc" class="','" style="display:none;">'.dhtmlspecialchars($var['errormsg']).'</div>','');
 		if($var['usemobile']) {
 			$return[2] = '<div id="recptc" style="display:none;">'.dhtmlspecialchars($var['errormsg']).'</div><script src="'.$jspath.'recaptcham.js?'.$_G['style']['verhash'].'"></script>';
+		}
+		if ($var['recaptcha_version'] == 3) {
+			$return[0] = '<script src="https://www.google.com/recaptcha/api.js?render='.$var['pubkey'].'"></script>';
+			$return[1] = '<script>grecaptcha.ready(function() { grecaptcha.execute(\''.$var['pubkey'].'\', {action: \'homepage\'}).then(function(token) { document.getElementById(\'seccodeverify_\'+idhash).value = token; }); });</script>';
 		}
 		return $return;
 	}
