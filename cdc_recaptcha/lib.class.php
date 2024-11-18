@@ -1,6 +1,6 @@
 <?php
 /**
- *	[reCAPTCHA(cdc_recaptcha)] (C)2019-2099 Powered by popcorner.
+ *	[reCAPTCHAx(cdc_recaptchax)] (C)2019-2099 Powered by popcorner.
  *  Licensed under the Apache License, Version 2.0
  */
 
@@ -14,9 +14,9 @@ function recaptchajsparams($mobile = 0) {
 	if(!isset($_G['cache']['plugin'])) {
 		loadcache('plugin');
 	}
-	$var = $_G['cache']['plugin']['cdc_recaptcha'];
-	$return['lang'] = $var['cname']?dhtmlspecialchars($var['cname']):lang('plugin/cdc_recaptcha','captcha');
-	$return['noie'] = lang('plugin/cdc_recaptcha','noie');
+	$var = $_G['cache']['plugin']['cdc_recaptchax'];
+	$return['lang'] = $var['cname']?dhtmlspecialchars($var['cname']):lang('plugin/cdc_recaptchax','captcha');
+	$return['noie'] = lang('plugin/cdc_recaptchax','noie');
 
 	if($var['hlang']) {
 		$qrr['hl'] = $var['hlang'];
@@ -69,7 +69,7 @@ function recaptchaphpparams() {
 	if(!isset($_G['cache']['plugin'])) {
 		loadcache('plugin');
 	}
-	$var = $_G['cache']['plugin']['cdc_recaptcha'];
+	$var = $_G['cache']['plugin']['cdc_recaptchax'];
 	if(!$var['pubkey'] || !$var['privkey']) {
 		return array('','','');
 	} else {

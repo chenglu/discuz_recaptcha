@@ -8,9 +8,9 @@
 		<item id="plugin">
 			<item id="available"><![CDATA[1]]></item>
 			<item id="adminid"><![CDATA[0]]></item>
-			<item id="name"><![CDATA[reCAPTCHAÅçÃÒ½X]]></item>
+			<item id="name"><![CDATA[reCAPTCHAxï¿½ï¿½ï¿½Ò½X]]></item>
 			<item id="identifier"><![CDATA[cdc_recaptcha]]></item>
-			<item id="description"><![CDATA[Google reCAPTCHAÅçÃÒ½X¡A¥þ²y¦w¥þ©Ê³Ì°ªªºÅçÃÒ½XªA°È¤§¤@¡A¦w¥þ§K¶O¡C]]></item>
+			<item id="description"><![CDATA[Google reCAPTCHAï¿½ï¿½ï¿½Ò½Xï¿½Aï¿½ï¿½ï¿½yï¿½wï¿½ï¿½ï¿½Ê³Ì°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò½Xï¿½Aï¿½È¤ï¿½ï¿½@ï¿½Aï¿½wï¿½ï¿½ï¿½Kï¿½Oï¿½C]]></item>
 			<item id="datatables"><![CDATA[]]></item>
 			<item id="directory"><![CDATA[cdc_recaptcha/]]></item>
 			<item id="copyright"><![CDATA[popcorner]]></item>
@@ -54,20 +54,20 @@
 		<item id="var">
 			<item id="0">
 				<item id="displayorder"><![CDATA[0]]></item>
-				<item id="title"><![CDATA[ªA°È¥\¯àÅÜ¼Æ¦WºÙ]]></item>
-				<item id="description"><![CDATA[¦¹¥\¯àÅÜ¼Æ¦WºÙ¦P®É¨Ñ¨Ï¥ÎªÌ©MªA°ÈºÝ¨Ï¥Î¡A½Ð°È¥²¥J²Ó¾\Åª¿ï¶µ¡C­Y¥X²{µLªk¥¿±`¤u§@ªº±¡ªp¥i¥H¹Á¸Õ§ó´«¥\¯àÅÜ¼Æ¦WºÙ¸Ñ¨M¡C]]></item>
+				<item id="title"><![CDATA[ï¿½Aï¿½È¥\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¦Pï¿½É¨Ñ¨Ï¥ÎªÌ©Mï¿½Aï¿½ÈºÝ¨Ï¥Î¡Aï¿½Ð°È¥ï¿½ï¿½Jï¿½Ó¾\Åªï¿½ï¶µï¿½Cï¿½Yï¿½Xï¿½{ï¿½Lï¿½kï¿½ï¿½ï¿½`ï¿½uï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½iï¿½Hï¿½ï¿½ï¿½Õ§ó´«¥\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¸Ñ¨Mï¿½C]]></item>
 				<item id="variable"><![CDATA[domain]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[2]]></item>
-				<item id="extra"><![CDATA[1 = www.google.com¡]¹w³]ªA°È¥\¯àÅÜ¼Æ¦WºÙ¡A¦ý¤¤°ê¤j³°¦a°Ï¤£¥i¥Î¡A©x¤è«ü©w¡^
-2 = www.recaptcha.net¡]¥þ²yªA°È¥\¯àÅÜ¼Æ¦WºÙ¡A¤¤°ê¤j³°¦a°Ï¥i¥Î¡A¨¦ºq©x¤è¤åÀÉ±ÀÂË¨Ï¥Î¡^
-3 = recaptcha.net¡]¥þ²yªA°È¥\¯àÅÜ¼Æ¦WºÙ¡A¤¤°ê¤j³°¦a°Ï¥i¥Î¡A§óÂ²µu¡^
-4 = recaptcha.google.cn¡]¤¤°êªA°È¥\¯àÅÜ¼Æ¦WºÙ¡Aª½³q¨¦ºq¤¤°ê¡A¦ý¤¤°ê¤j³°¥H¥~¨Ï¥ÎªÌ¼vÅT¥¼ª¾¡^]]></item>
+				<item id="extra"><![CDATA[1 = www.google.comï¿½]ï¿½wï¿½]ï¿½Aï¿½È¥\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¡Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½aï¿½Ï¤ï¿½ï¿½iï¿½Î¡Aï¿½xï¿½ï¿½ï¿½ï¿½wï¿½^
+2 = www.recaptcha.netï¿½]ï¿½ï¿½ï¿½yï¿½Aï¿½È¥\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¡Aï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½aï¿½Ï¥iï¿½Î¡Aï¿½ï¿½ï¿½qï¿½xï¿½ï¿½ï¿½ï¿½É±ï¿½ï¿½Ë¨Ï¥Î¡^
+3 = recaptcha.netï¿½]ï¿½ï¿½ï¿½yï¿½Aï¿½È¥\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¡Aï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½aï¿½Ï¥iï¿½Î¡Aï¿½ï¿½Â²ï¿½uï¿½^
+4 = recaptcha.google.cnï¿½]ï¿½ï¿½ï¿½ï¿½Aï¿½È¥\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¡Aï¿½ï¿½ï¿½qï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½Hï¿½~ï¿½Ï¥ÎªÌ¼vï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½^]]></item>
 			</item>
 			<item id="1">
 				<item id="displayorder"><![CDATA[1]]></item>
-				<item id="title"><![CDATA[Åã¥Ü¦WºÙ]]></item>
-				<item id="description"><![CDATA[ÅçÃÒ½X«e¤èÅã¥Üªº¤å¦r¦WºÙ¡A¯dªÅ¹w³]¬°¡uÅçÃÒ½X¡v¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½Ü¦Wï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½Ò½Xï¿½eï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½ï¿½rï¿½Wï¿½Ù¡Aï¿½dï¿½Å¹wï¿½]ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½Ò½Xï¿½vï¿½C]]></item>
 				<item id="variable"><![CDATA[cname]]></item>
 				<item id="type"><![CDATA[text]]></item>
 				<item id="value"><![CDATA[]]></item>
@@ -75,8 +75,8 @@
 			</item>
 			<item id="2">
 				<item id="displayorder"><![CDATA[2]]></item>
-				<item id="title"><![CDATA[ªA°È¤½¶}ª÷Æ_]]></item>
-				<item id="description"><![CDATA[reCAPTCHAª÷Æ_ªº¤½¶}ª÷Æ_³¡¤À¡A½Ð¨ìGoogle©xºô¥Ó½Ð¡Chttps://www.google.com/recaptcha/admin]]></item>
+				<item id="title"><![CDATA[ï¿½Aï¿½È¤ï¿½ï¿½}ï¿½ï¿½ï¿½_]]></item>
+				<item id="description"><![CDATA[reCAPTCHAï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ð¨ï¿½Googleï¿½xï¿½ï¿½ï¿½Ó½Ð¡Chttps://www.google.com/recaptcha/admin]]></item>
 				<item id="variable"><![CDATA[pubkey]]></item>
 				<item id="type"><![CDATA[text]]></item>
 				<item id="value"><![CDATA[]]></item>
@@ -84,8 +84,8 @@
 			</item>
 			<item id="3">
 				<item id="displayorder"><![CDATA[3]]></item>
-				<item id="title"><![CDATA[ªA°È¨p±Kª÷Æ_]]></item>
-				<item id="description"><![CDATA[reCAPTCHAª÷Æ_ªº¨p±Kª÷Æ_³¡¤À¡A½Ð¨ìGoogle©xºô¥Ó½Ð¡C ½Ð§´µ½«OºÞ¡A¤£­n¬ªÅS¡I]]></item>
+				<item id="title"><![CDATA[ï¿½Aï¿½È¨pï¿½Kï¿½ï¿½ï¿½_]]></item>
+				<item id="description"><![CDATA[reCAPTCHAï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½pï¿½Kï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ð¨ï¿½Googleï¿½xï¿½ï¿½ï¿½Ó½Ð¡C ï¿½Ð§ï¿½ï¿½ï¿½ï¿½Oï¿½Þ¡Aï¿½ï¿½ï¿½nï¿½ï¿½ï¿½Sï¿½I]]></item>
 				<item id="variable"><![CDATA[privkey]]></item>
 				<item id="type"><![CDATA[text]]></item>
 				<item id="value"><![CDATA[]]></item>
@@ -93,9 +93,9 @@
 			</item>
 			<item id="4">
 				<item id="displayorder"><![CDATA[4]]></item>
-				<item id="title"><![CDATA[±Ò¥Î¤â¾÷]]></item>
-				<item id="description"><![CDATA[¶}±Ò¦¹¶}Ãö¥i¥HÅý¨t²Î¦Û±aªº¤â¾÷¼Ð·Çª©©MÄ²«Ìª©Åã¥Ü¥XÅçÃÒ½X¡C ¤£¨Ï¥Î¤â¾÷ª©ªº¯¸¥i¥HÃö³¬¦¹¶}Ãö¡C
-¶È´£¨Ñ°ò¥»ªº¥i¥Î©Ê¡A¥BµLªk«OÃÒ¥i¥H¤Ç°t¨ó¤O¼t°Ó¤â¾÷ª©¡C]]></item>
+				<item id="title"><![CDATA[ï¿½Ò¥Î¤ï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½}ï¿½Ò¦ï¿½ï¿½}ï¿½ï¿½ï¿½iï¿½Hï¿½ï¿½ï¿½tï¿½Î¦Û±aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·Çªï¿½ï¿½MÄ²ï¿½Ìªï¿½ï¿½ï¿½Ü¥Xï¿½ï¿½ï¿½Ò½Xï¿½C ï¿½ï¿½ï¿½Ï¥Î¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½C
+ï¿½È´ï¿½ï¿½Ñ°ò¥»ªï¿½ï¿½iï¿½Î©Ê¡Aï¿½Bï¿½Lï¿½kï¿½Oï¿½Ò¥iï¿½Hï¿½Ç°tï¿½ï¿½Oï¿½tï¿½Ó¤ï¿½ï¿½ï¿½ï¿½ï¿½C]]></item>
 				<item id="variable"><![CDATA[usemobile]]></item>
 				<item id="type"><![CDATA[radio]]></item>
 				<item id="value"><![CDATA[0]]></item>
@@ -103,73 +103,73 @@
 			</item>
 			<item id="5">
 				<item id="displayorder"><![CDATA[5]]></item>
-				<item id="title"><![CDATA[¥DÃDÃC¦â]]></item>
-				<item id="description"><![CDATA[¨¦ºq©x¤è´£¨Ñ¤F2ºØÅçÃÒ½X°t¦â¡A¥i¥H®Ú¾Ú¦Û¤vªº½d¥»­·®æ·f°t¿ï¾Ü¡C]]></item>
+				<item id="title"><![CDATA[ï¿½Dï¿½Dï¿½Cï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½qï¿½xï¿½è´£ï¿½Ñ¤F2ï¿½ï¿½ï¿½ï¿½ï¿½Ò½Xï¿½tï¿½ï¿½Aï¿½iï¿½Hï¿½Ú¾Ú¦Û¤vï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½tï¿½ï¿½Ü¡C]]></item>
 				<item id="variable"><![CDATA[theme]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[0]]></item>
-				<item id="extra"><![CDATA[0 = ²L¦â
-1 = ²`¦â]]></item>
+				<item id="extra"><![CDATA[0 = ï¿½Lï¿½ï¿½
+1 = ï¿½`ï¿½ï¿½]]></item>
 			</item>
 			<item id="6">
 				<item id="displayorder"><![CDATA[6]]></item>
-				<item id="title"><![CDATA[¤Ø¤o¤j¤p]]></item>
-				<item id="description"><![CDATA[¨¦ºq©x¤è´£¨Ñ¤F2ºØÅçÃÒ½X¤Ø¤o¡A¥i¥H®Ú¾Ú¦Û¤vªº½d¥»­·®æ·f°t¿ï¾Ü¡C]]></item>
+				<item id="title"><![CDATA[ï¿½Ø¤oï¿½jï¿½p]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½qï¿½xï¿½è´£ï¿½Ñ¤F2ï¿½ï¿½ï¿½ï¿½ï¿½Ò½Xï¿½Ø¤oï¿½Aï¿½iï¿½Hï¿½Ú¾Ú¦Û¤vï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½tï¿½ï¿½Ü¡C]]></item>
 				<item id="variable"><![CDATA[size]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[0]]></item>
-				<item id="extra"><![CDATA[0 = ¼Ð·Ç
-1 = ¯¶]]></item>
+				<item id="extra"><![CDATA[0 = ï¿½Ð·ï¿½
+1 = ï¿½ï¿½]]></item>
 			</item>
 			<item id="7">
 				<item id="displayorder"><![CDATA[7]]></item>
-				<item id="title"><![CDATA[¸ü¤J¹Ï¥Ü]]></item>
-				<item id="description"><![CDATA[¶}±Ò¦¹¶µ¡A¸ü¤J¹Lµ{·í¤¤±N·|Åã¥Ü¤@­Ó¸ü¤J°Êµe¹Ï¼Ð]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½Jï¿½Ï¥ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½}ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Jï¿½Lï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½|ï¿½ï¿½Ü¤@ï¿½Ó¸ï¿½ï¿½Jï¿½Êµeï¿½Ï¼ï¿½]]></item>
 				<item id="variable"><![CDATA[loadicon]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[1]]></item>
-				<item id="extra"><![CDATA[0 = ¤£Åã¥Ü
-1 = Åã¥Ü
-2 = ¶W®É¥H«áÄ~ÄòÅã¥Ü]]></item>
+				<item id="extra"><![CDATA[0 = ï¿½ï¿½ï¿½ï¿½ï¿½
+1 = ï¿½ï¿½ï¿½
+2 = ï¿½Wï¿½É¥Hï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½]]></item>
 			</item>
 			<item id="8">
 				<item id="displayorder"><![CDATA[8]]></item>
-				<item id="title"><![CDATA[»¡©ú¹Ï¥Ü]]></item>
-				<item id="description"><![CDATA[¶}±Ò¦¹¶µ¡A±N·|Åã¥Ü¤@­Ó»¡©ú¹Ï¥Ü¡A¹Ï¥Üªº¨ãÅé§@¥Î¥Ñ¤U­±ªº°t¸m¶µ¨M©w¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½Ï¥ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½}ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½|ï¿½ï¿½Ü¤@ï¿½Ó»ï¿½ï¿½ï¿½ï¿½Ï¥Ü¡Aï¿½Ï¥Üªï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Î¥Ñ¤Uï¿½ï¿½ï¿½ï¿½ï¿½tï¿½mï¿½ï¿½ï¿½Mï¿½wï¿½C]]></item>
 				<item id="variable"><![CDATA[helpicon]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[1]]></item>
-				<item id="extra"><![CDATA[0 = ¤£Åã¥Ü
-1 = ©l²×Åã¥Ü
-2 = ¸ü¤J¶W®É«áÅã¥Ü]]></item>
+				<item id="extra"><![CDATA[0 = ï¿½ï¿½ï¿½ï¿½ï¿½
+1 = ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½
+2 = ï¿½ï¿½ï¿½Jï¿½Wï¿½É«ï¿½ï¿½ï¿½ï¿½]]></item>
 			</item>
 			<item id="9">
 				<item id="displayorder"><![CDATA[9]]></item>
-				<item id="title"><![CDATA[»¡©úÃþ«¬]]></item>
-				<item id="description"><![CDATA[¿ï¾Ü»¡©ú¹Ï¥Üªº§@¥Î¡A¥i¥H¬O¤@­Ó³sµ²¡A¤]¥i¥H¬O¤@¬q¤å¦r³q¹L¼uµ¡ªº¤è¦¡®i²{¡C
-¬Æ¦Ü¥i¥H«ü¦VÅã¥Ü¼uµ¡¡AÂIÀ»Ä²µo³sµ²¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½Ï¥Üªï¿½ï¿½@ï¿½Î¡Aï¿½iï¿½Hï¿½Oï¿½@ï¿½Ó³sï¿½ï¿½ï¿½Aï¿½]ï¿½iï¿½Hï¿½Oï¿½@ï¿½qï¿½ï¿½rï¿½qï¿½Lï¿½uï¿½ï¿½ï¿½ï¿½ï¿½è¦¡ï¿½iï¿½{ï¿½C
+ï¿½Æ¦Ü¥iï¿½Hï¿½ï¿½ï¿½Vï¿½ï¿½Ü¼uï¿½ï¿½ï¿½Aï¿½Iï¿½ï¿½Ä²ï¿½oï¿½sï¿½ï¿½ï¿½C]]></item>
 				<item id="variable"><![CDATA[helptype]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[3]]></item>
-				<item id="extra"><![CDATA[0 = ¥iÂIÀ»ªº³sµ²
-1 = ·Æ¹««ü¦V¼uµ¡´£¥Ü
-2 = ·Æ¹«ÂIÀ»¼uµ¡´£¥Ü
-3 = ¼uµ¡³sµ²§Ú¥þ³£­n]]></item>
+				<item id="extra"><![CDATA[0 = ï¿½iï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
+1 = ï¿½Æ¹ï¿½ï¿½ï¿½ï¿½Vï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+2 = ï¿½Æ¹ï¿½ï¿½Iï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+3 = ï¿½uï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ú¥ï¿½ï¿½ï¿½ï¿½n]]></item>
 			</item>
 			<item id="10">
 				<item id="displayorder"><![CDATA[10]]></item>
-				<item id="title"><![CDATA[»¡©ú¤º®e]]></item>
-				<item id="description"><![CDATA[·í»¡©úÃþ«¬¥]§t¼uµ¡®É¡A¼uµ¡¤º·|Åã¥Ü¦b¦¹¶ñ¼gªº¤å¦r¤º®e¡C
-¤â¾÷ª©¤£¤ä´©¦¹¥\¯à¡]¤S¨S¦³·Æ¹«¹À¡^]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½e]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½tï¿½uï¿½ï¿½ï¿½É¡Aï¿½uï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½Ü¦bï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½eï¿½C
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä´©ï¿½ï¿½ï¿½\ï¿½ï¿½]ï¿½Sï¿½Sï¿½ï¿½ï¿½Æ¹ï¿½ï¿½ï¿½ï¿½^]]></item>
 				<item id="variable"><![CDATA[helpcont]]></item>
 				<item id="type"><![CDATA[textarea]]></item>
-				<item id="value"><![CDATA[ÂI¦¹¬d¬Ý»¡©ú]]></item>
+				<item id="value"><![CDATA[ï¿½Iï¿½ï¿½ï¿½dï¿½Ý»ï¿½ï¿½ï¿½]]></item>
 				<item id="extra"><![CDATA[]]></item>
 			</item>
 			<item id="11">
 				<item id="displayorder"><![CDATA[11]]></item>
-				<item id="title"><![CDATA[»¡©ú³sµ²]]></item>
-				<item id="description"><![CDATA[·í»¡©úÃþ«¬¥]§t³sµ²®É¡AÂIÀ»·|¸õÂà¨ì¦b¦¹¶ñ¼gªº³sµ²¦ì¸m¡C ¯¸¥~³sµ²»Ý­n¥]§tHTTP©ÎHTTPs¶}ÀY]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½tï¿½sï¿½ï¿½ï¿½É¡Aï¿½Iï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½mï¿½C ï¿½ï¿½ï¿½~ï¿½sï¿½ï¿½ï¿½Ý­nï¿½]ï¿½tHTTPï¿½ï¿½HTTPsï¿½}ï¿½Y]]></item>
 				<item id="variable"><![CDATA[helplink]]></item>
 				<item id="type"><![CDATA[text]]></item>
 				<item id="value"><![CDATA[misc.php?mod=faq]]></item>
@@ -177,9 +177,9 @@
 			</item>
 			<item id="12">
 				<item id="displayorder"><![CDATA[12]]></item>
-				<item id="title"><![CDATA[Åã¥Ü»yºØ]]></item>
-				<item id="description"><![CDATA[reCAPTCHAÅçÃÒ½X¹w³]Åã¥Üªº¬O¨Ï¥ÎªÌÂsÄý¾¹­º¿ï»y¨¥¡A¨Ã«D©M½×¾Â¤@­P¡C ¦pªG·Q±j¦æÅý¨Ï¥ÎªÌ¬Ý¨ìÁcÅé¤¤¤å¡A½Ð¦b¦¹¶ñ¼gzh-HK(­»´ä)©Îzh-TW¡]»OÆW¡^¡C 
-¨ä¥L»y¨¥¥N¸¹¡Ghttps://developers.google.cn/recaptcha/docs/language]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½Ü»yï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[reCAPTCHAï¿½ï¿½ï¿½Ò½Xï¿½wï¿½]ï¿½ï¿½Üªï¿½ï¿½Oï¿½Ï¥Îªï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yï¿½ï¿½ï¿½Aï¿½Ã«Dï¿½Mï¿½×¾Â¤@ï¿½Pï¿½C ï¿½pï¿½Gï¿½Qï¿½jï¿½ï¿½ï¿½ï¿½ï¿½Ï¥ÎªÌ¬Ý¨ï¿½ï¿½cï¿½é¤¤ï¿½ï¿½Aï¿½Ð¦bï¿½ï¿½ï¿½ï¿½gzh-HK(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½zh-TWï¿½]ï¿½Oï¿½Wï¿½^ï¿½C 
+ï¿½ï¿½Lï¿½yï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Ghttps://developers.google.cn/recaptcha/docs/language]]></item>
 				<item id="variable"><![CDATA[hlang]]></item>
 				<item id="type"><![CDATA[text]]></item>
 				<item id="value"><![CDATA[]]></item>
@@ -187,9 +187,9 @@
 			</item>
 			<item id="13">
 				<item id="displayorder"><![CDATA[13]]></item>
-				<item id="title"><![CDATA[±Ò¥Î¨ê·s]]></item>
-				<item id="description"><![CDATA[¦b·¥­Ó§Oªº±¡ªp¤U¡A³¡¤À¨Ï¥ÎªÌ¥i¯à·|¹J¨ìÅçÃÒ½X¥¼¥¿±`¸ü¤J©ÎµLªk¥¿±`¨Ï¥Îªº±¡ªp¡A¶}±Ò¦¹«ö¶s¥i¥H³æ¿W¨ê·sÅçÃÒ½X¦Ó¤£¥²¨ê·s­¶­±¡C
-¤â¾÷ª©¤£¤ä´©¦¹¥\¯à¡C]]></item>
+				<item id="title"><![CDATA[ï¿½Ò¥Î¨ï¿½s]]></item>
+				<item id="description"><![CDATA[ï¿½bï¿½ï¿½ï¿½Ó§Oï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Uï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ï¥ÎªÌ¥iï¿½ï¿½|ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ò½Xï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Jï¿½ÎµLï¿½kï¿½ï¿½ï¿½`ï¿½Ï¥Îªï¿½ï¿½ï¿½ï¿½pï¿½Aï¿½}ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½sï¿½iï¿½Hï¿½ï¿½Wï¿½ï¿½sï¿½ï¿½ï¿½Ò½Xï¿½Ó¤ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½C
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä´©ï¿½ï¿½ï¿½\ï¿½ï¿½C]]></item>
 				<item id="variable"><![CDATA[refresh]]></item>
 				<item id="type"><![CDATA[radio]]></item>
 				<item id="value"><![CDATA[0]]></item>
@@ -197,8 +197,8 @@
 			</item>
 			<item id="14">
 				<item id="displayorder"><![CDATA[14]]></item>
-				<item id="title"><![CDATA[¦Û°Ê¨ê·s]]></item>
-				<item id="description"><![CDATA[AJAXªºªí³æ´£¥æ¥H«á¡AÂIÀ»ªºÅçÃÒ½X´N·|¦]¬°¥Î¹L¤@¦¸¦Ó¥¢®Ä¤F¡C ¶}±Ò¥»¥\¯à¥H«á·|¦bªí³æ´£¥æ¤§«á¦Û°Ê¨ê·s¤@¦¸¡C]]></item>
+				<item id="title"><![CDATA[ï¿½Û°Ê¨ï¿½s]]></item>
+				<item id="description"><![CDATA[AJAXï¿½ï¿½ï¿½ï¿½ï¿½æ´£ï¿½ï¿½Hï¿½ï¿½Aï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò½Xï¿½Nï¿½|ï¿½]ï¿½ï¿½ï¿½Î¹Lï¿½@ï¿½ï¿½ï¿½Ó¥ï¿½ï¿½Ä¤Fï¿½C ï¿½}ï¿½Ò¥ï¿½ï¿½\ï¿½ï¿½Hï¿½ï¿½|ï¿½bï¿½ï¿½ï¿½æ´£ï¿½æ¤§ï¿½ï¿½Û°Ê¨ï¿½sï¿½@ï¿½ï¿½ï¿½C]]></item>
 				<item id="variable"><![CDATA[autoref]]></item>
 				<item id="type"><![CDATA[radio]]></item>
 				<item id="value"><![CDATA[1]]></item>
@@ -206,8 +206,8 @@
 			</item>
 			<item id="15">
 				<item id="displayorder"><![CDATA[15]]></item>
-				<item id="title"><![CDATA[¨ê·s©µ®É]]></item>
-				<item id="description"><![CDATA[³æ¦ì¬°²@¬í¡]1000²@¬í=1¬í¡^¡Aªí³æ´£¥æ«á¶W¹L¦¹®É¶¡±N·|¨ê·sÅçÃÒ½X¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ì¬°ï¿½@ï¿½ï¿½ï¿½]1000ï¿½@ï¿½ï¿½=1ï¿½ï¿½ï¿½^ï¿½Aï¿½ï¿½ï¿½æ´£ï¿½ï¿½ï¿½Wï¿½Lï¿½ï¿½ï¿½É¶ï¿½ï¿½Nï¿½|ï¿½ï¿½sï¿½ï¿½ï¿½Ò½Xï¿½C]]></item>
 				<item id="variable"><![CDATA[refdelay]]></item>
 				<item id="type"><![CDATA[number]]></item>
 				<item id="value"><![CDATA[2000]]></item>
@@ -215,28 +215,28 @@
 			</item>
 			<item id="16">
 				<item id="displayorder"><![CDATA[16]]></item>
-				<item id="title"><![CDATA[¿ù»~´£¥Ü]]></item>
-				<item id="description"><![CDATA[­Ó§O¨Ï¥ÎªÌ¹J¨ì¸ü¤J¤£¥XÅçÃÒ½Xªº±¡ªp®É¡A±z¥i¥H¦b¦¹¿é¤J¤@¬q¤º®e®i¥Üµ¹³o¨Ç¨Ï¥ÎªÌ¬Ý¡C
-©ÎªÌ¦b¦¹§iª¾¨Ï¥ÎªÌ¸Ñ¨M°ÝÃDªº¿ìªk¡]¦pÃö³¬¥N²z¡^]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½Ó§Oï¿½Ï¥ÎªÌ¹Jï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Ò½Xï¿½ï¿½ï¿½ï¿½ï¿½pï¿½É¡Aï¿½zï¿½iï¿½Hï¿½bï¿½ï¿½ï¿½ï¿½Jï¿½@ï¿½qï¿½ï¿½ï¿½eï¿½iï¿½Üµï¿½ï¿½oï¿½Ç¨Ï¥ÎªÌ¬Ý¡C
+ï¿½ÎªÌ¦bï¿½ï¿½ï¿½iï¿½ï¿½ï¿½Ï¥ÎªÌ¸Ñ¨Mï¿½ï¿½ï¿½Dï¿½ï¿½ï¿½ï¿½kï¿½]ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½zï¿½^]]></item>
 				<item id="variable"><![CDATA[errormsg]]></item>
 				<item id="type"><![CDATA[textarea]]></item>
-				<item id="value"><![CDATA[Google reCAPTCHA ÅçÃÒ½X]]></item>
+				<item id="value"><![CDATA[Google reCAPTCHA ï¿½ï¿½ï¿½Ò½X]]></item>
 				<item id="extra"><![CDATA[]]></item>
 			</item>
 			<item id="17">
 				<item id="displayorder"><![CDATA[17]]></item>
-				<item id="title"><![CDATA[¤º®e®æ¦¡]]></item>
-				<item id="description"><![CDATA[¿ù»~´£¥Üªº¤º®e®æ¦¡¡A¥i¥H¬°¯Â¤å¦r©ÎHTML¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½eï¿½æ¦¡]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Üªï¿½ï¿½ï¿½ï¿½eï¿½æ¦¡ï¿½Aï¿½iï¿½Hï¿½ï¿½ï¿½Â¤ï¿½rï¿½ï¿½HTMLï¿½C]]></item>
 				<item id="variable"><![CDATA[msgtype]]></item>
 				<item id="type"><![CDATA[select]]></item>
 				<item id="value"><![CDATA[1]]></item>
-				<item id="extra"><![CDATA[0 = ¯Â¤å¦r
+				<item id="extra"><![CDATA[0 = ï¿½Â¤ï¿½r
 1 = HTML]]></item>
 			</item>
 			<item id="18">
 				<item id="displayorder"><![CDATA[18]]></item>
-				<item id="title"><![CDATA[³ø¿ù©µ®É]]></item>
-				<item id="description"><![CDATA[³æ¦ì¬°²@¬í¡]1000²@¬í=1¬í¡^¡A¶W¹L¦¹®É¶¡±N·|¦V¨Ï¥ÎªÌÅã¥Ü¥X³ø¿ù¸ê°T¡C ±z¤]¥i¥H³]¸m¬°0Åý¸ê°T¥ß§YÅã¥Ü¥X¨Ó¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ì¬°ï¿½@ï¿½ï¿½ï¿½]1000ï¿½@ï¿½ï¿½=1ï¿½ï¿½ï¿½^ï¿½Aï¿½Wï¿½Lï¿½ï¿½ï¿½É¶ï¿½ï¿½Nï¿½|ï¿½Vï¿½Ï¥Îªï¿½ï¿½ï¿½Ü¥Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½C ï¿½zï¿½]ï¿½iï¿½Hï¿½]ï¿½mï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½Tï¿½ß§Yï¿½ï¿½Ü¥Xï¿½Ó¡C]]></item>
 				<item id="variable"><![CDATA[delaytime]]></item>
 				<item id="type"><![CDATA[number]]></item>
 				<item id="value"><![CDATA[2000]]></item>
@@ -244,8 +244,8 @@
 			</item>
 			<item id="19">
 				<item id="displayorder"><![CDATA[19]]></item>
-				<item id="title"><![CDATA[¤Á´«¶¶§Ç]]></item>
-				<item id="description"><![CDATA[¥¿±`±¡ªp¤U¤£­n³]¸m¡A¦¹³]¸m¥Î©óªí³æ·í¤¤¦s¦btab¤Á´«¶¶§Ç¿ù¶Ãªº±¡ªp¤U¶i¦æ½Õ¾ã¡A¶ñ¼g¼Æ¦ì§Y¥i¡C ¨S¦³¹J¨ìÃþ¦ü°ÝÃD½Ð¯dªÅ©Î¶ñ¼g0¡C]]></item>
+				<item id="title"><![CDATA[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]]></item>
+				<item id="description"><![CDATA[ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½pï¿½Uï¿½ï¿½ï¿½nï¿½]ï¿½mï¿½Aï¿½ï¿½ï¿½]ï¿½mï¿½Î©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½btabï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½Ãªï¿½ï¿½ï¿½ï¿½pï¿½Uï¿½iï¿½ï¿½Õ¾ï¿½Aï¿½ï¿½gï¿½Æ¦ï¿½Yï¿½iï¿½C ï¿½Sï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Dï¿½Ð¯dï¿½Å©Î¶ï¿½g0ï¿½C]]></item>
 				<item id="variable"><![CDATA[tabindex]]></item>
 				<item id="type"><![CDATA[number]]></item>
 				<item id="value"><![CDATA[0]]></item>
@@ -254,18 +254,18 @@
 		</item>
 		<item id="language">
 			<item id="scriptlang">
-				<item id="recaptcha"><![CDATA[reCAPTCHAÅçÃÒ½X]]></item>
-				<item id="captcha"><![CDATA[ÅçÃÒ½X]]></item>
-				<item id="nokey_error"><![CDATA[±z©|¥¼°t¸mÅçÃÒ½X¬ÛÃöª÷Æ_¡A½Ð°t¸m«á¦A¨Ï¥Î¡I]]></item>
-				<item id="noie"><![CDATA[±zªºÂsÄý¾¹ª©¥»¹L§C¡AµLªk¸ü¤JreCAPTCHAÅçÃÒ½X¡A«ØÄ³¨Ï¥Î«DIEÂsÄý¾¹¡C]]></item>
+				<item id="recaptcha"><![CDATA[reCAPTCHAï¿½ï¿½ï¿½Ò½X]]></item>
+				<item id="captcha"><![CDATA[ï¿½ï¿½ï¿½Ò½X]]></item>
+				<item id="nokey_error"><![CDATA[ï¿½zï¿½|ï¿½ï¿½ï¿½tï¿½mï¿½ï¿½ï¿½Ò½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Aï¿½Ð°tï¿½mï¿½ï¿½Aï¿½Ï¥Î¡I]]></item>
+				<item id="noie"><![CDATA[ï¿½zï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½Cï¿½Aï¿½Lï¿½kï¿½ï¿½ï¿½JreCAPTCHAï¿½ï¿½ï¿½Ò½Xï¿½Aï¿½ï¿½Ä³ï¿½Ï¥Î«DIEï¿½sï¿½ï¿½ï¿½ï¿½ï¿½C]]></item>
 			</item>
 		</item>
-		<item id="license"><![CDATA[[b]½Ðª`·N¡G[/b]¦w¸Ë«e½Ð½T»{±z¦³¯à¤O³X°Ýwww.google.com¡AÁöµM¥»¥~±¾µ{¦¡¤u§@µL»Ý³X°Ý¨¦ºq©xºô¡A¦ýµù¥U¹Lµ{¬O»Ý­nªº¡C
+		<item id="license"><![CDATA[[b]ï¿½Ðª`ï¿½Nï¿½G[/b]ï¿½wï¿½Ë«eï¿½Ð½Tï¿½{ï¿½zï¿½ï¿½ï¿½ï¿½Oï¿½Xï¿½ï¿½www.google.comï¿½Aï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½uï¿½@ï¿½Lï¿½Ý³Xï¿½Ý¨ï¿½ï¿½qï¿½xï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½Lï¿½{ï¿½Oï¿½Ý­nï¿½ï¿½ï¿½C
 
-¦w¸Ë«á½Ð¤Î®É³X°Ý¨¦ºq©xºôµù¥U¡][url]https://www.google.com/recaptcha/admin[/url]¡^¡AÀò¨úª÷Æ_¨Ã¶ñ¤J³]¸m­¶¡AµM«á¨ì«á»O-¨¾Äé¤ô-ÅçÃÒ³]¸m¡Aºu°Ê¨ì³Ì¤U­±¿ï¾ÜreCAPTCHAÅçÃÒ½X§Y¥i±Ò¥Î¡C
-µù¥U¬yµ{¡G¥´¶}¤W­z³sµ²-¨¦ºq±b¸¹µn¿ý-¶ñ¼g¼ÐÅÒ¡AÃþ«¬¿ï²Ä¤Gª©¡A®Ö¨ú¤è¶ô¡]¨ä¥Lª©¥»¬OµL·P»{ÃÒ¡A¤£¾A¦XDiscuz¨Ï¥Î¡^¡A¶ñ¼g¥\¯àÅÜ¼Æ¦WºÙ¡A¤Ä¿ï¨ó©w¡A´£¥æ¡C
-µM«áÀò±o2­Óª÷Æ_¡A¤W­±ªº¬O¤½¶}ª÷Æ_¡A¤U­±ªº¬O¨p±Kª÷Æ_¡A¶ñ¼g¨ì¥~±¾µ{¦¡³]¸m­¶¸Ì«O¦s´N¦æ¤F¡C
-¦pªG³o³£¨S¬ÝÀ´¡AÁÙ»Ý­n¹Ï¤å±Ðµ{ªº¸Ü¡A¥i¥H¥hÀ³¥Î¤¤¤ß¨º¸Ì¬Ý¡C
+ï¿½wï¿½Ë«ï¿½Ð¤Î®É³Xï¿½Ý¨ï¿½ï¿½qï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½][url]https://www.google.com/recaptcha/admin[/url]ï¿½^ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Ã¶ï¿½Jï¿½]ï¿½mï¿½ï¿½ï¿½Aï¿½Mï¿½ï¿½ï¿½ï¿½O-ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½Ò³]ï¿½mï¿½Aï¿½uï¿½Ê¨ï¿½Ì¤Uï¿½ï¿½ï¿½ï¿½ï¿½reCAPTCHAï¿½ï¿½ï¿½Ò½Xï¿½Yï¿½iï¿½Ò¥Î¡C
+ï¿½ï¿½ï¿½Uï¿½yï¿½{ï¿½Gï¿½ï¿½ï¿½}ï¿½Wï¿½zï¿½sï¿½ï¿½-ï¿½ï¿½ï¿½qï¿½bï¿½ï¿½ï¿½nï¿½ï¿½-ï¿½ï¿½gï¿½ï¿½ï¿½Ò¡Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤Gï¿½ï¿½ï¿½Aï¿½Ö¨ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Lï¿½Pï¿½{ï¿½Ò¡Aï¿½ï¿½ï¿½Aï¿½XDiscuzï¿½Ï¥Î¡^ï¿½Aï¿½ï¿½gï¿½\ï¿½ï¿½ï¿½Ü¼Æ¦Wï¿½Ù¡Aï¿½Ä¿ï¿½ï¿½wï¿½Aï¿½ï¿½ï¿½ï¿½C
+ï¿½Mï¿½ï¿½ï¿½ï¿½o2ï¿½Óªï¿½ï¿½_ï¿½Aï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½_ï¿½Aï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½pï¿½Kï¿½ï¿½ï¿½_ï¿½Aï¿½ï¿½gï¿½ï¿½~ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½]ï¿½mï¿½ï¿½ï¿½Ì«Oï¿½sï¿½Nï¿½ï¿½Fï¿½C
+ï¿½pï¿½Gï¿½oï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ù»Ý­nï¿½Ï¤ï¿½Ðµ{ï¿½ï¿½ï¿½Ü¡Aï¿½iï¿½Hï¿½hï¿½ï¿½ï¿½Î¤ï¿½ï¿½ß¨ï¿½ï¿½Ì¬Ý¡C
 
 Copyright 2019 popcorner
 
@@ -285,10 +285,10 @@ NOTICE: Removing or modifying any content about the author will be
 regarded as "remove attribution notices" and is prohibited,
 including name, description and relevant URLs.
 
-¥»µ{¦¡¨Ï¥ÎApache License 2.0¨ó©w±ÂÅv¡A±z¥²¶·¿í¦u¦¹¨ó©w¤~¯à¦w¸Ë¥»µ{¦¡¡C
-¥»¨ó©w»PDiscuz±ÂÅv¨ó©wµL¥ô¦óÃöÁp¡C
-¤W¤å¬°Apache¨ó©w±ÂÅvªº¼Ð·Ç®æ¦¡¡A¦pªG¬Ý¤£À´¥i¥H·j¯Á¡u¸Ô²Ó¤¶²ÐApache License¡v¡]¶È¨Ñ²z¸Ñ¡A¤£¯à¥Î©ó¥N´À­ì¤å¡^
-¯S§OÁn©ú¡G§@ªÌ¹ï¡u¥²¶·«O¯d¸p¦W¡vªº©w¸q¬O¤£±o¥h°£µ{¦¡¤ºªº¥ô¦ó¤@³B§@ªÌ¸p¦W¡A¤¶²Ð¤Î¬ÛÃöºô§}µ¥§@ªÌ­Ó¤H¸ê°T¡A¤]¤£±µ¨ü¬ÛÃö­×§ï¡C]]></item>
-		<item id="intro"><![CDATA[¥»¥~±¾µ{¦¡ª½±µ±µ¤J¨t²ÎªºÅçÃÒ½X¼Ò²Õ¡A¦]¦¹ÅçÃÒ¬ÛÃö³]¸m½Ðª½±µ¨ì¨t²Î«á»O-¨¾Äé¤ô-ÅçÃÒ³]¸m¡A¦Ó¤£¦b¥~±¾µ{¦¡³oÃä¡C]]></item>
+ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Ï¥ï¿½Apache License 2.0ï¿½ï¿½wï¿½ï¿½ï¿½vï¿½Aï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½wï¿½~ï¿½ï¿½wï¿½Ë¥ï¿½ï¿½{ï¿½ï¿½ï¿½C
+ï¿½ï¿½ï¿½ï¿½wï¿½PDiscuzï¿½ï¿½ï¿½vï¿½ï¿½wï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½C
+ï¿½Wï¿½å¬°Apacheï¿½ï¿½wï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ð·Ç®æ¦¡ï¿½Aï¿½pï¿½Gï¿½Ý¤ï¿½ï¿½ï¿½ï¿½iï¿½Hï¿½jï¿½ï¿½ï¿½uï¿½Ô²Ó¤ï¿½ï¿½ï¿½Apache Licenseï¿½vï¿½]ï¿½È¨Ñ²zï¿½Ñ¡Aï¿½ï¿½ï¿½ï¿½Î©ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½^
+ï¿½Sï¿½Oï¿½nï¿½ï¿½ï¿½Gï¿½@ï¿½Ì¹ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½dï¿½pï¿½Wï¿½vï¿½ï¿½ï¿½wï¿½qï¿½Oï¿½ï¿½ï¿½oï¿½hï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Bï¿½@ï¿½Ì¸pï¿½Wï¿½Aï¿½ï¿½ï¿½Ð¤Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½@ï¿½Ì­Ó¤Hï¿½ï¿½Tï¿½Aï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×§ï¿½C]]></item>
+		<item id="intro"><![CDATA[ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½tï¿½Îªï¿½ï¿½ï¿½ï¿½Ò½Xï¿½Ò²Õ¡Aï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Ò¬ï¿½ï¿½ï¿½ï¿½]ï¿½mï¿½Ðªï¿½ï¿½ï¿½ï¿½ï¿½tï¿½Î«ï¿½O-ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½Ò³]ï¿½mï¿½Aï¿½Ó¤ï¿½ï¿½bï¿½~ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½oï¿½ï¿½C]]></item>
 	</item>
 </root>
