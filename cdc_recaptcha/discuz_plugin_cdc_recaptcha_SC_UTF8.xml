@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <root>
 	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
-	<item id="Version"><![CDATA[X3.4]]></item>
+	<item id="Version"><![CDATA[X3.5]]></item>
 	<item id="Time"><![CDATA[2020-01-11 04:36]]></item>
 	<item id="From"><![CDATA[Discuz! Board (https://addon.dismall.com/)]]></item>
 	<item id="Data">
@@ -10,7 +10,7 @@
 			<item id="adminid"><![CDATA[0]]></item>
 			<item id="name"><![CDATA[reCAPTCHA验证码]]></item>
 			<item id="identifier"><![CDATA[cdc_recaptcha]]></item>
-			<item id="description"><![CDATA[Google reCAPTCHA验证码，全球安全性最高的验证码服务之一，安全免费。本插件支持在中国大陆地区正常使用Google的验证码服务。]]></item>
+			<item id="description"><![CDATA[Google reCAPTCHA验证码，全球安全性最高的验证码服务之一，安全免费。本插件支持在中国大陆地区正常使用Google的验证码服务，并支持reCAPTCHA v3。]]></item>
 			<item id="datatables"><![CDATA[]]></item>
 			<item id="directory"><![CDATA[cdc_recaptcha/]]></item>
 			<item id="copyright"><![CDATA[popcorner]]></item>
@@ -50,7 +50,7 @@
 				</item>
 			</item>
 		</item>
-		<item id="version"><![CDATA[X3,X3.1,X3.2,X3.3,X3.4]]></item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2,X3.3,X3.4,X3.5]]></item>
 		<item id="var">
 			<item id="0">
 				<item id="displayorder"><![CDATA[0]]></item>
@@ -250,6 +250,16 @@
 				<item id="type"><![CDATA[number]]></item>
 				<item id="value"><![CDATA[0]]></item>
 				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="20">
+				<item id="displayorder"><![CDATA[20]]></item>
+				<item id="title"><![CDATA[reCAPTCHA 版本]]></item>
+				<item id="description"><![CDATA[选择要使用的reCAPTCHA版本。]]></item>
+				<item id="variable"><![CDATA[recaptcha_version]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[2 = reCAPTCHA v2
+3 = reCAPTCHA v3]]></item>
 			</item>
 		</item>
 		<item id="language">

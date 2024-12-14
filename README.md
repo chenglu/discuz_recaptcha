@@ -22,10 +22,19 @@
 
 - 加入手机版部分支持，仅在必要情况下触发，且可以开关。
 
+- 支持Discuz X3.5和reCAPTCHA v3。
+
 ## 使用说明：
 
 安装注册过程首先需要访问谷歌官方的注册页，并需准备一个谷歌账户。 https://www.google.com/recaptcha/admin ，后续操作参见下方的后两张图片。完成以后，由于使用的是官方验证码机制，后续的验证码相关设置不在插件页，在系统后台自带的防灌水-验证设置里面。
 插件的使用效果可以参见吾爱破解论坛（ https://www.52pojie.cn/ ）的登录页。
+
+### 配置reCAPTCHA v3
+
+1. 在Google reCAPTCHA管理页面（https://www.google.com/recaptcha/admin）中，选择“v3 Admin Console”。
+2. 创建一个新的站点，并获取站点密钥和密钥。
+3. 在插件设置页面中，选择reCAPTCHA版本为v3，并填写获取的站点密钥和密钥。
+4. 保存设置并更新缓存。
 
 ## 特别声明：
 
