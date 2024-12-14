@@ -23,6 +23,9 @@ class seccode_recaptcha {
 		if(!isset($_G['cache']['plugin'])) {
 			loadcache('plugin');
 		}
+		if ($_G['cache']['plugin']['cdc_recaptcha']['recaptcha_version'] == 3) {
+			return $this->check_v3($value, $idhash);
+		}
 		if(!isset($_GET['g-recaptcha-response']) || !$_GET['g-recaptcha-response'] || !$_G['cache']['plugin']['cdc_recaptcha']['pubkey'] || !$_G['cache']['plugin']['cdc_recaptcha']['privkey']) {
 			return false;
 		}
@@ -37,13 +40,37 @@ class seccode_recaptcha {
 		}
 	}
 
+	public function check_v3($value, $idhash) {
+		global $_G;
+		if(!isset($_G['cache']['plugin'])) {
+			loadcache('plugin');
+		}
+		if(!isset($_GET['g-recaptcha-response']) || !$_GET['g-recaptcha-response'] || !$_G['cache']['plugin']['cdc_recaptcha']['pubkey'] || !$_G['cache']['plugin']['cdc_recaptcha']['privkey']) {
+			return false;
+		}
+		$gdomain = $_G['cache']['plugin']['cdc_recaptcha']['domain'];
+		$gdomain = $gdomain?intval($gdomain):2;
+		$postdata = array('secret'=>$_G['cache']['plugin']['cdc_recaptcha']['privkey'],'response'=>$_GET['g-recaptcha-response'],'remoteip'=>$_G['clientip']);
+		$resp = dfsockopen('https://'.$this->domainlist[$gdomain].'/recaptcha/api/siteverify',0,$postdata);
+		$responseData = json_decode($resp,true);
+		if($responseData['success'] && $responseData['score'] >= 0.5) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	public function make($idhash) {
 		global $_G;
 		loadcache('cdc_recaptcha');
 		if(!isset($_G['cache']['cdc_recaptcha']) || !$_G['cache']['cdc_recaptcha'][0]) {
 			echo lang('plugin/cdc_recaptcha','nokey_error');
 		} else {
-			echo $_G['cache']['cdc_recaptcha'][0].$idhash.$_G['cache']['cdc_recaptcha'][1];
+			if ($_G['cache']['plugin']['cdc_recaptcha']['recaptcha_version'] == 3) {
+				echo $_G['cache']['cdc_recaptcha'][0].$idhash.$_G['cache']['cdc_recaptcha'][1];
+			} else {
+				echo $_G['cache']['cdc_recaptcha'][0].$idhash.$_G['cache']['cdc_recaptcha'][1];
+			}
 		}
 	}
 }

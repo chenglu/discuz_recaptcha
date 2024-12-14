@@ -10,17 +10,26 @@ if(!defined('IN_DISCUZ')) {
 function build_cache_plugin_conf() {
 	global $_G;
 	include_once DISCUZ_ROOT.'./source/plugin/cdc_recaptcha/lib.class.php';
-	$recp = recaptchajsparams();
+	if(!isset($_G['cache']['plugin'])) {
+		loadcache('plugin');
+	}
+	$recaptcha_version = $_G['cache']['plugin']['cdc_recaptcha']['recaptcha_version'];
+	if ($recaptcha_version == 3) {
+		$recp = recaptchajsparams_v3();
+	} else {
+		$recp = recaptchajsparams();
+	}
 	ob_start();
 	include template('cdc_recaptcha:js');
 	$message = ob_get_contents();
 	ob_end_clean();
 	write_js_to_cache('recaptcha',$message);
-	if(!isset($_G['cache']['plugin'])) {
-		loadcache('plugin');
-	}
 	if($_G['cache']['plugin']['cdc_recaptcha']['usemobile']) {
-		$recp = recaptchajsparams(1);
+		if ($recaptcha_version == 3) {
+			$recp = recaptchajsparams_v3(1);
+		} else {
+			$recp = recaptchajsparams(1);
+		}
 		ob_start();
 		include template('cdc_recaptcha:jsm');
 		$message = ob_get_contents();
